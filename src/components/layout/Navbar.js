@@ -1,34 +1,36 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import { BsFileEarmarkTextFill } from "react-icons/bs";
 
 const Navbar = () => {
     return (
 
-        <nav className="navbar navbar-expand-lg navbar-Secondary bg-light">
+        <nav className="navbar navbar-expand-md w-50 m-auto">
             <div className="container">
-                <a className="navbar-brand" href="/">CryptoHunt</a>
+                <a style={{ color: "#f0ad4e" }} className="navbar-brand" href="/">KlayLabs</a>
 
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <NavLink className="nav-link" exact to="/">
-                                Home
-                                </NavLink>
+                            <NavLink style={{ color: "gray" }} className="nav-link" exact to="/">
+                                Defi
+                            </NavLink>
                         </li>
-                        <li className="nav-item">
+
+                        {/* <li className="nav-item">
                             <NavLink className="nav-link" exact to="/about">
                                 About
                                 </NavLink>
-                        </li>
-                        <li className="nav-item">
+                        </li> */}
+                        {/* <li className="nav-item">
                             <NavLink className="nav-link" exact to="/contact">
                                 Contact
                                 </NavLink>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
 
-                <Link className="btn btn-outline-primary" to="/users/add">Add User</Link>
+                <Link className="btn btn-outline-warning" to="/users/add"><BsFileEarmarkTextFill /></Link>
 
             </div>
         </nav>

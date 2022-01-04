@@ -1,0 +1,49 @@
+{
+  "coins": [
+    {
+      "id": 1,
+      "projname": "Eklipse",
+      "mainnet": "Klaytn",
+      "shortintro": "stable swap",
+      "website": "https://eklipse.finance",
+      "startdate": "2021-12-20",
+      "coinsourceURL": "https://eklipse.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FcJWIjkcIL9RcVybgcPFt%2Fuploads%2FiPGwtSeKXATCwEE9erSc%2FIMG.png?alt=media&token=7470e233-32c8-4e64-8719-46997db26006"
+    },
+    {
+      "id": 2,
+      "projname": "Claimswap",
+      "mainnet": "Klaytn",
+      "shortintro": "community",
+      "website": "https://claimswap.org/",
+      "startdate": "2021-12-20",
+      "coinsourceURL": "https://docs.claimswap.org/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F3lVEy1eAatcLW3sirrws%2Fuploads%2FhKmFxv3pWiH9adpVWjA7%2F%E1%84%86%E1%85%AE%E1%84%8C%E1%85%A6.jpg?alt=media&token=0027248a-717c-4d70-9883-1fa823098a46"
+    },
+    {
+      "id": 3,
+      "projname": "CocoaFinance",
+      "mainnet": "Klaytn",
+      "shortintro": "community",
+      "website": "https://claimswap.org/",
+      "startdate": "2021-12-20",
+      "coinsourceURL": "https://docs.claimswap.org/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F3lVEy1eAatcLW3sirrws%2Fuploads%2FhKmFxv3pWiH9adpVWjA7%2F%E1%84%86%E1%85%AE%E1%84%8C%E1%85%A6.jpg?alt=media&token=0027248a-717c-4d70-9883-1fa823098a46"
+    },
+    {
+      "id": 4,
+      "projname": "CocoaFinance",
+      "mainnet": "Klaytn",
+      "shortintro": "community",
+      "website": "https://claimswap.org/",
+      "startdate": "2021-12-20",
+      "coinsourceURL": "https://docs.claimswap.org/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F3lVEy1eAatcLW3sirrws%2Fuploads%2FhKmFxv3pWiH9adpVWjA7%2F%E1%84%86%E1%85%AE%E1%84%8C%E1%85%A6.jpg?alt=media&token=0027248a-717c-4d70-9883-1fa823098a46"
+    },
+    {
+      "id": 5,
+      "projname": "CocoaFinance",
+      "mainnet": "Klaytn",
+      "shortintro": "community",
+      "website": "https://claimswap.org/",
+      "startdate": "2021-12-20",
+      "coinsourceURL": "https://docs.claimswap.org/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F3lVEy1eAatcLW3sirrws%2Fuploads%2FhKmFxv3pWiH9adpVWjA7%2F%E1%84%86%E1%85%AE%E1%84%8C%E1%85%A6.jpg?alt=media&token=0027248a-717c-4d70-9883-1fa823098a46"
+    }
+  ]
+}

@@ -16,21 +16,29 @@ import {
 
 
 function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Navbar />
+  const bgcolor = {
+    height: "100vh",
+    backgroundColor: "#27241D"
+  }
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/users/add" element={<AddUser />} />
-          <Route exact path="/users/edit/:id" element={<EditUser />} />
-          <Route exact path="/users/:id" element={<User />} />
-        </Routes>
-      </div>
-    </Router>
+  return (
+    <div style={bgcolor}>
+
+      <Router>
+        <div className="container">
+          <Navbar />
+
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/contact" element={<Contact />} />
+            <Route exact path="/users/add" element={<AddUser />} />
+            <Route exact path="/users/edit/:id" element={<EditUser />} />
+            <Route exact path="/users/:id" element={<User />} />
+          </Routes>
+        </div>
+      </Router>
+    </div>
   );
 }
 
