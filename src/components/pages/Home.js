@@ -12,6 +12,66 @@ const Home = () => {
     const [users, setUser] = useState(coindata.coins);
     const array = [1, 2, 3, 4, 5];
 
+    // --------------------------------------------
+
+    // 1. klayswap (v) api
+    // https://s.klayswap.com/stat/klayswapInfo.json
+
+    // 2. Kokoa finance (v) api
+    // https://kokoa-mainnet.du.r.appspot.com/status
+
+    // 3. i4ifinance (v) api
+    // https://api.i4i.finance/stats
+
+    // 4. klaymore (v) api
+    // https://klaymore-mainnet.du.r.appspot.com/status
+
+    // 5. 클레이스테이션 (v) api
+    // https://s.klaystation.io/staking/status.json
+
+    // --------------------------------------------
+
+    // 6. claimswap
+    // 0xcf87f94fd8f6b6f0b479771f10df672f99eada63
+    // 0x02703e13b5d3d3056ac9321983b44a2cc065bb22
+
+    // 7. Eklipse
+    // 0xcf87f94fd8f6b6f0b479771f10df672f99eada63
+
+    // 8. Kronosdao finance (x) 크롤링??
+    // https://kronosdao.finance/
+
+    // 9. klayFi (x) 크롤링??
+    // https://api2.klayfi.finance/api/klaytn/recentVolumeV2
+
+    // 10. Donkey 
+    // https://www.donkey.fund/main
+
+    // 11. kai protocol
+    // https://kaiprotocol.fi/
+
+    // 12. blue whale
+    // https://app.bluewhale-protocol.com/klaytn/account
+
+    // 13. klay meta
+    // https://klaymeta.io/summon
+
+    // 14. jun meta
+    // https://junprotocol.io/
+
+    // 15. definix
+    // https://bsc.definix.com/
+
+    // 16. agov
+    // https://agov.finance/staking
+
+    // klaytn balance
+    // https://api-cypress.scope.klaytn.com/v1/accounts/0x03c812ee50e244909efe72e8c729976acc5c16bb/balances
+    // https://api-cypress.scope.klaytn.com/v1/accounts/0xc847D70D3Ceb7E543e7ede2aD0AC596E2fFbcEC8/balances
+
+    // coin gecko api
+    // https://api.coingecko.com/api/v3/simple/price?ids=avalanche-2,olympus,magic-internet-money,dai,klay-token,klayswap-protocol&vs_currencies=usd
+
     useEffect(() => {
         setUser(coindata.coins)
         console.log(users)
